@@ -1,0 +1,158 @@
+header {
+	border-bottom: 2px solid #eee;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #efefef;
+}
+
+nav li {
+	float: left;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+nav li a {
+	display: inline-block;
+	text-align: center;
+	margin: 0 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #3399ff;
+	padding: 13px 10px 0 10px;
+}
+
+nav li a:hover, nav li a.active {
+	color: #ff7013;
+	border-bottom: 2px solid #ff7013;
+	text-decoration: none;
+}
+
+nav {
+	margin-top: -80px;
+	float: left;
+	width: 100%;
+}
+
+.logo {
+	width: 150px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+	position: relative;
+}
+
+.logo em {
+	float: left;
+	background-color: #ffffff;
+	width: 20px;
+	height: 100px;
+}
+
+.logo a {
+	float: left;
+
+	img {
+		width: 110px;
+		height: 110px;
+	}
+}
+
+nav .contact-number {
+	padding: 5px 16px;
+	height: 44px;
+	line-height: 22px;
+	float: right;
+}
+
+nav .contact-number em {
+	color: #3399ff;
+}
+
+nav .contact-number span a {
+	padding: 0;
+	text-align: left;
+}
+
+nav .contact-number span:nth-child(2) {
+	display: flex;
+}
+
+nav .contact-number span:nth-child(2) a {
+	color: #3399ff;
+	font-weight: 400;
+	margin: 0 0 0 5px;
+	line-height: 20px;
+}
+
+nav .contact-number span:nth-child(2) a:hover {
+	color: #ff7013;
+}
+
+nav .contact-number span a:hover {
+	border-bottom: none;
+}
+
+nav .home-icon {
+	margin: 11px 13px 0px 13px;
+	background: url('../assets/home-icon.png') no-repeat;
+	width: 36px;
+	height: 36px;
+	padding: 0;
+}
+
+nav .home-icon:hover, nav .home-icon.active {
+	background: url('../assets/home-icon-hover.png') no-repeat;
+	border-bottom: none;
+}
+
+.social-icons-group {
+	float: right;
+	list-style-type: none;
+	color: #999;
+}
+
+.social-icons-group .soical-icon {
+	padding: 0;
+	margin: 13px 10px 0 9px;
+}
+
+.social-icons-group li a {
+	width: 26px;
+	height: 26px;
+}
+
+.social-icons-group li a:hover:not(.active) {
+	border-bottom: none;
+}
+
+.fb-icon {
+	background: url('../assets/fb-icon.png') no-repeat;
+}
+
+.fb-icon:hover {
+	background: url('../assets/fb-icon-hover.png') no-repeat;
+}
+
+.gplus-icon {
+	background: url('../assets/g-plus-icon.png') no-repeat;
+}
+
+.gplus-icon:hover {
+	background: url('../assets/g-plus-icon-hover.png') no-repeat;
+}
+
+.instagram-icon {
+	background: url('../assets/instagram-icon.png') no-repeat;
+}
+
+.instagram-icon:hover {
+	background: url('../assets/instagram-icon-hover.png') no-repeat;
+}
